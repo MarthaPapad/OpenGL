@@ -304,8 +304,8 @@ int main(void){
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
         
-        mydisplay(); //one kite
-    	//mydisplay2(); //two kites
+        //mydisplay(); //one kite
+    	mydisplay2(); //two kites
         
         glfwSwapBuffers(window);
         glfwPollEvents();
