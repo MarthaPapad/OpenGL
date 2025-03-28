@@ -70,7 +70,6 @@ int main(void) {
     glEnable(GL_DEPTH_TEST); 
     
     //load objects
-    meshvft texsquare("../obj/planevft.obj" , "../textures/grass.jpg");
     meshvft texsun("../obj/spherevft.obj" , "../textures/sun.jpg");
     meshvft texearth("../obj/spherevft.obj","../textures/earth720x360.jpg");
     meshvft texasteroid("../obj/asteroidvft.obj","../textures/asteroid700x700.jpg");
